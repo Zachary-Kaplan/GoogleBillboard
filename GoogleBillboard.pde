@@ -7,7 +7,6 @@ public void setup()
     if(isPrime(Double.parseDouble(e.substring(i, 10 + i))) == true)
     {
       prime = Double.parseDouble(e.substring(i, 10 + i));
-      System.out.println(prime);
     }
   }
 }  
